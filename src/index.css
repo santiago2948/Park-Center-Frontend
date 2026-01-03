@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #FFF;
+  --secondary-color: #ecb603;
+  --background-color: #333333;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+/* Background for Home screen with controllable overlay */
+:root {
+  --home-bg-overlay: rgba(0, 0, 0, 0.45);
+}
+
+.home-body-bg {
+  background-image: linear-gradient(var(--home-bg-overlay), var(--home-bg-overlay)), url('/src/assets/img/pexels-carlnewton-2280148.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  /* fallback color in case image not loaded */
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.logo{
+  font-weight: bold;
+  font-size: 2em;
+} 

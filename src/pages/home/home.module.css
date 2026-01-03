@@ -1,0 +1,32 @@
+/* background moved to index.css */
+
+.homeManBox{
+    background-color: var(--primary-color);
+    padding: 1em 3em;
+    border-radius: 20px;
+    min-height: 10em;
+}
+
+.placaInput{
+    background-color: #6f6f6f !important;
+    margin-top: 1.5em !important;
+    color: var(--primary-color) !important;
+    font-weight: bolder !important;
+    text-align: center;
+}
+
+.placaInput::placeholder{
+    text-align: center;
+    font-weight: bold;
+    color: var(--primary-color) !important;
+}
+
+.adminQuestion{
+    margin: 0;
+    text-align: center;
+
+}
+
+.adminQuestion:hover{
+    cursor: pointer;
+} 
