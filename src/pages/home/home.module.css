@@ -30,3 +30,7 @@
 .adminQuestion:hover{
     cursor: pointer;
 } 
+
+.editEmailIcon:hover{
+    cursor: pointer;
+}
